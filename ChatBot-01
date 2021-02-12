@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CHAT-BOT</title>
+    <link rel="icon" type="text/css" href="1698535.png">
+</head>
+<body>
+    <h1> Hello! My Name is Tex</h1>
+    <input type="text" placeholder="Talk to Me" class="Chatbot" id="getinput" onfocus="this.value=''" onkeypress="search()">    
+<script type="text/javascript">
+    function search() {
+        var get=document.getElementById("getinput").value;
+        var tex=get.toLowerCase();
+        if (tex=="hello"){
+            alert("Hey! How are You??");
+        }
+        else if (tex=="hello!"){
+            alert("Hey! How are You??");
+        }
+        else if( tex=="how are you?"){
+            alert("I'm fine, thanks for asking");
+        }
+        else if(tex=="what’s up?"){
+            alert("I'm good, how are you?");
+        }
+        else if(tex=="are you a robot?"){
+            alert("Yes I’m a robot but I’m a smart one!");
+        }
+        else if(tex=="today is my birthday!"){
+            alert("HAPPY BIRTHDAY!! :)");
+        }
+        else if(tex=="thank you"){
+            alert("Pleasure is all mine");
+        }
+        else if(tex=="what is your name?"){
+            alert("My name is TEX and I'm your friendly chatbot");
+        }
+        else if(tex=="where do you live?"){
+            alert("On the INTERNET");
+        }
+        else if(tex=="who made you?"){
+            alert("A software enthusiast made me");
+        }
+        else if(tex=="which languages can you speak?"){
+            alert("I only converse in ENGLISH");
+        }
+        else if(tex=="do you have a hobby"){
+            alert("My only hobby is to talk to new people :))");
+        }
+        else if(tex=="bye"){
+            alert("Bye!! See you around 🖐")
+        }
+    }
+ </script>
+ <style>
+     body{
+        background-image: url("img_5terre.jpg");
+        background-size: 100%;
+     }
+     h1{
+        color: rgb(4, 43, 54);
+        position: absolute;
+        top: 20%;
+        left: 40%;
+     }
+     .Chatbot{
+        text-align: center;
+        text-decoration-color: rgb(0, 255, 115);
+        background-color: greenyellow;
+        color: rgb(0, 151, 63);
+        border-radius: 5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 20cm;
+        height: 20px;
+     }
+ </style>
+ </body>
+</html>
